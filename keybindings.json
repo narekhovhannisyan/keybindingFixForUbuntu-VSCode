@@ -1,0 +1,33 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  {
+    "key": "shift+alt+down",
+    "command": "editor.action.copyLinesDownAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "shift+alt+up",
+    "command": "editor.action.copyLinesUpAction",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "standard.executeAutofix"
+  },{
+    "key": "shift+numpad1",
+    "command": "cursorEndSelect",
+    "when": "editorTextFocus"
+  },{
+    "key": "shift+numpad3",
+    "command": "cursorPageDownSelect",
+    "when": "editorTextFocus"
+  },{
+    "key": "shift+numpad9",
+    "command": "cursorPageUpSelect",
+    "when": "editorTextFocus"
+  },{
+    "key": "shift+numpad7",
+    "command": "cursorHomeSelect",
+    "when": "editorTextFocus"
+  }
+]
