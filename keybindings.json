@@ -13,21 +13,33 @@
   {
     "key": "ctrl+shift+f",
     "command": "standard.executeAutofix"
-  },{
+  },
+  {
     "key": "shift+numpad1",
     "command": "cursorEndSelect",
     "when": "editorTextFocus"
-  },{
+  },
+  {
     "key": "shift+numpad3",
     "command": "cursorPageDownSelect",
     "when": "editorTextFocus"
-  },{
+  },
+  {
     "key": "shift+numpad9",
     "command": "cursorPageUpSelect",
     "when": "editorTextFocus"
-  },{
+  },
+  {
     "key": "shift+numpad7",
     "command": "cursorHomeSelect",
     "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+[Backquote]",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+shift+[Backquote]",
+    "command": "workbench.action.terminal.new"
   }
 ]
